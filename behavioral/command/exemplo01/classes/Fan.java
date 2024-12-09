@@ -1,4 +1,4 @@
-package command.classes;
+package behavioral.command.exemplo01.classes;
 
 public class Fan {
     public void turnOn() {

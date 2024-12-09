@@ -1,12 +1,12 @@
-package command;
+package behavioral.command.exemplo01;
 
-import command.classes.Fan;
-import command.classes.FanOnCommand;
-import command.classes.Light;
-import command.classes.LightOffCommand;
-import command.classes.LightOnCommand;
-import command.classes.RemoteControl;
-import command.interfaces.Command;
+import behavioral.command.exemplo01.classes.Fan;
+import behavioral.command.exemplo01.classes.FanOnCommand;
+import behavioral.command.exemplo01.classes.Light;
+import behavioral.command.exemplo01.classes.LightOffCommand;
+import behavioral.command.exemplo01.classes.LightOnCommand;
+import behavioral.command.exemplo01.classes.RemoteControl;
+import behavioral.command.exemplo01.interfaces.Command;
 
 public class Main {
     public static void main(String[] args) {
