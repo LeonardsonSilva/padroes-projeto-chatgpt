@@ -1,10 +1,10 @@
-package adapter.exemplo01;
+package structural.adapter.exemplo01;
 
-import adapter.exemplo01.classes.LibraryA;
-import adapter.exemplo01.classes.LibraryAAdapter;
-import adapter.exemplo01.classes.LibraryB;
-import adapter.exemplo01.classes.LibraryBAdapter;
-import adapter.exemplo01.interfaces.PDFGenerator;
+import structural.adapter.exemplo01.classes.LibraryA;
+import structural.adapter.exemplo01.classes.LibraryAAdapter;
+import structural.adapter.exemplo01.classes.LibraryB;
+import structural.adapter.exemplo01.classes.LibraryBAdapter;
+import structural.adapter.exemplo01.interfaces.PDFGenerator;
 
 public class Main {
     public static void main(String[] args) {

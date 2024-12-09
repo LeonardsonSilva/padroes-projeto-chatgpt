@@ -1,6 +1,6 @@
-package adapter.exemplo01.classes;
+package structural.adapter.exemplo01.classes;
 
-import adapter.exemplo01.interfaces.PDFGenerator;
+import structural.adapter.exemplo01.interfaces.PDFGenerator;
 
 public class LibraryAAdapter implements PDFGenerator {
     private final LibraryA libraryA;

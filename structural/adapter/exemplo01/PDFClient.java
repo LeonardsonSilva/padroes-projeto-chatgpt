@@ -1,6 +1,6 @@
-package adapter.exemplo01;
+package structural.adapter.exemplo01;
 
-import adapter.exemplo01.interfaces.PDFGenerator;
+import structural.adapter.exemplo01.interfaces.PDFGenerator;
 
 public class PDFClient {
     private final PDFGenerator pdfGenerator;
