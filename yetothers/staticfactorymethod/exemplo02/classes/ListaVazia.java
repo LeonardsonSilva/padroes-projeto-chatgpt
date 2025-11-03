@@ -1,6 +1,6 @@
-package creational.staticfactorymethod.exemplo02.classes;
+package yetothers.staticfactorymethod.exemplo02.classes;
 
-import creational.staticfactorymethod.exemplo02.interfaces.ListaImutavel;
+import yetothers.staticfactorymethod.exemplo02.interfaces.ListaImutavel;
 
 
 // produto concreto (otimizada para zero elementos (singleton))

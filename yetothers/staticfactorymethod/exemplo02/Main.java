@@ -1,7 +1,7 @@
-package creational.staticfactorymethod.exemplo02;
+package yetothers.staticfactorymethod.exemplo02;
 
-import creational.staticfactorymethod.exemplo02.classes.ColecoesUtilitarias;
-import creational.staticfactorymethod.exemplo02.interfaces.ListaImutavel;
+import yetothers.staticfactorymethod.exemplo02.classes.ColecoesUtilitarias;
+import yetothers.staticfactorymethod.exemplo02.interfaces.ListaImutavel;
 
 public class Main {
     public static void main(String[] args) {

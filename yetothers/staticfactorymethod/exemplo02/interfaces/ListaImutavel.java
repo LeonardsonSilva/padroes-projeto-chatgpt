@@ -1,4 +1,4 @@
-package creational.staticfactorymethod.exemplo02.interfaces;
+package yetothers.staticfactorymethod.exemplo02.interfaces;
 
 
 // produto

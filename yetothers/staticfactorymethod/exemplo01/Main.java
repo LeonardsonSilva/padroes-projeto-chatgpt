@@ -1,6 +1,6 @@
-package creational.staticfactorymethod.exemplo01;
+package yetothers.staticfactorymethod.exemplo01;
 
-import creational.staticfactorymethod.exemplo01.classes.Cor;
+import yetothers.staticfactorymethod.exemplo01.classes.Cor;
 
 public class Main {
     public static void main(String[] args) {

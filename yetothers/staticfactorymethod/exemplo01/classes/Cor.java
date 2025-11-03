@@ -1,4 +1,4 @@
-package creational.staticfactorymethod.exemplo01.classes;
+package yetothers.staticfactorymethod.exemplo01.classes;
 
 public class Cor {
     private final int r;
