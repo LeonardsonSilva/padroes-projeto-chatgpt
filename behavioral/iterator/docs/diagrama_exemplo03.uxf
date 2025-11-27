@@ -1,37 +1,37 @@
-<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>477</x><y>450</y><w>135</w><h>63</h></coordinates><panel_attributes>PancakeHouseMenu
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>513</x><y>432</y><w>135</w><h>63</h></coordinates><panel_attributes>PancakeHouseMenu
 --
 menuItems: MenuItem
 --
 + createIterator(): Iterator
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>180</x><y>297</y><w>126</w><h>72</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>216</x><y>279</y><w>126</w><h>72</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
 Iterator
 --
 + hasNext()
 + next()
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>540</x><y>270</y><w>153</w><h>54</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>576</x><y>252</y><w>153</w><h>54</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
 Menu
 --
 + createIterator(): Iterator
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>279</x><y>450</y><w>117</w><h>27</h></coordinates><panel_attributes>DinerMenuIterator
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>315</x><y>432</y><w>117</w><h>27</h></coordinates><panel_attributes>DinerMenuIterator
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>576</x><y>585</y><w>90</w><h>27</h></coordinates><panel_attributes>MenuItem
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>612</x><y>567</y><w>90</w><h>27</h></coordinates><panel_attributes>MenuItem
 
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>378</x><y>198</y><w>90</w><h>45</h></coordinates><panel_attributes>Waitress
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>414</x><y>180</y><w>90</w><h>45</h></coordinates><panel_attributes>Waitress
 --
 printMenu()
 
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>297</x><y>306</y><w>261</w><h>27</h></coordinates><panel_attributes>lt=&lt;.</panel_attributes><additional_attributes>10;10;270;10</additional_attributes></element><element><id>Relation</id><coordinates><x>459</x><y>198</y><w>171</w><h>90</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>170;80;170;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>252</x><y>360</y><w>99</w><h>108</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;90;100</additional_attributes></element><element><id>Relation</id><coordinates><x>513</x><y>315</y><w>117</w><h>153</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>110;10;10;150</additional_attributes></element><element><id>Relation</id><coordinates><x>522</x><y>504</y><w>99</w><h>99</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>90;90;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>81</x><y>450</y><w>171</w><h>27</h></coordinates><panel_attributes>PancakeHouseMenuIterator
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>333</x><y>288</y><w>261</w><h>27</h></coordinates><panel_attributes>lt=&lt;.</panel_attributes><additional_attributes>10;10;270;10</additional_attributes></element><element><id>Relation</id><coordinates><x>495</x><y>180</y><w>171</w><h>90</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>170;80;170;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>288</x><y>342</y><w>99</w><h>108</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;90;100</additional_attributes></element><element><id>Relation</id><coordinates><x>549</x><y>297</y><w>117</w><h>153</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>110;10;10;150</additional_attributes></element><element><id>Relation</id><coordinates><x>558</x><y>486</y><w>99</w><h>99</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>90;90;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>117</x><y>432</y><w>171</w><h>27</h></coordinates><panel_attributes>PancakeHouseMenuIterator
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>198</x><y>360</y><w>72</w><h>108</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>60;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>504</y><w>72</w><h>99</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;90;60;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>630</x><y>450</y><w>162</w><h>63</h></coordinates><panel_attributes>DinerMenu
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>234</x><y>342</y><w>72</w><h>108</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>60;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>666</x><y>486</y><w>72</w><h>99</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;90;60;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>666</x><y>432</y><w>162</w><h>63</h></coordinates><panel_attributes>DinerMenu
 --
 menuItems: MenuItem
 --
 + createIterator(): Iterator
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>612</x><y>315</y><w>81</w><h>153</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;70;150</additional_attributes></element><element><id>Relation</id><coordinates><x>225</x><y>225</y><w>171</w><h>90</h></coordinates><panel_attributes>lt=&lt;.</panel_attributes><additional_attributes>10;80;10;10;170;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>27</x><y>63</y><w>261</w><h>153</h></coordinates><panel_attributes>Neste exemplo, a classe Waitress e a
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>648</x><y>297</y><w>81</w><h>153</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;70;150</additional_attributes></element><element><id>Relation</id><coordinates><x>261</x><y>207</y><w>171</w><h>90</h></coordinates><panel_attributes>lt=&lt;.</panel_attributes><additional_attributes>10;80;10;10;170;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>63</x><y>45</y><w>261</w><h>153</h></coordinates><panel_attributes>Neste exemplo, a classe Waitress e a
 interface Iterator possuem uma relação
 de dependência (e não de associação).
 Ou seja, não é necessária uma referência
@@ -42,4 +42,9 @@ pode ser necessário que o cliente mantenha
 uma associação ao objeto Iterator como um
 atributo da classe.
 
-bg=blue</panel_attributes><additional_attributes></additional_attributes></element></diagram>
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>423</x><y>108</y><w>63</w><h>27</h></coordinates><panel_attributes>Cliente
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>441</x><y>126</y><w>27</w><h>72</h></coordinates><panel_attributes>lt=..</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>99</x><y>252</y><w>63</w><h>27</h></coordinates><panel_attributes>Iterator
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>153</x><y>261</y><w>81</w><h>54</h></coordinates><panel_attributes>lt=..</panel_attributes><additional_attributes>70;40;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>126</x><y>450</y><w>27</w><h>72</h></coordinates><panel_attributes>lt=..</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>UMLNote</id><coordinates><x>72</x><y>504</y><w>126</w><h>27</h></coordinates><panel_attributes>Concrete Iterator
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>684</x><y>171</y><w>81</w><h>27</h></coordinates><panel_attributes>Aggregate
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>693</x><y>189</y><w>54</w><h>81</h></coordinates><panel_attributes>lt=..</panel_attributes><additional_attributes>10;70;40;10</additional_attributes></element><element><id>Relation</id><coordinates><x>432</x><y>450</y><w>99</w><h>126</h></coordinates><panel_attributes>lt=..</panel_attributes><additional_attributes>90;10;10;120</additional_attributes></element><element><id>UMLNote</id><coordinates><x>360</x><y>558</y><w>126</w><h>27</h></coordinates><panel_attributes>Concrete Aggregate
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element></diagram>
