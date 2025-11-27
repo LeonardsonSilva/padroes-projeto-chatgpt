@@ -4,11 +4,11 @@ import java.util.ArrayList;
 
 import behavioral.iterator.exemplo03_use_cabeca.interfaces.Iterator;
 
-public class PancakeHouseIterator implements Iterator {
+public class PancakeHouseMenuIterator implements Iterator {
     ArrayList<MenuItem> items;
     int position = 0;
 
-    public PancakeHouseIterator(ArrayList<MenuItem> items) {
+    public PancakeHouseMenuIterator(ArrayList<MenuItem> items) {
         this.items = items;
     }
     @Override

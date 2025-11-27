@@ -3,8 +3,9 @@ package behavioral.iterator.exemplo03_use_cabeca.classes;
 import java.util.ArrayList;
 
 import behavioral.iterator.exemplo03_use_cabeca.interfaces.Iterator;
+import behavioral.iterator.exemplo03_use_cabeca.interfaces.Menu;
 
-public class PancakeHouseMenu {
+public class PancakeHouseMenu implements Menu {
     ArrayList<MenuItem> menuItems;
 
     public PancakeHouseMenu() {
@@ -28,7 +29,7 @@ public class PancakeHouseMenu {
     // }
 
     public Iterator createIterator() {
-        return new PancakeHouseIterator(menuItems);
+        return new PancakeHouseMenuIterator(menuItems);
     }
 
     // outros métodos aqui

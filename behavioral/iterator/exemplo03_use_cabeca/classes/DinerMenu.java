@@ -1,8 +1,9 @@
 package behavioral.iterator.exemplo03_use_cabeca.classes;
 
 import behavioral.iterator.exemplo03_use_cabeca.interfaces.Iterator;
+import behavioral.iterator.exemplo03_use_cabeca.interfaces.Menu;
 
-public class DinerMenu {
+public class DinerMenu implements Menu{
     static final int MAX_ITENS = 6;
     int numberOfItems = 0;
     MenuItem[] menuItems;
