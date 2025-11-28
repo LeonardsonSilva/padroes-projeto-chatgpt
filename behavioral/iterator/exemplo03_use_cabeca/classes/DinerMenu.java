@@ -8,8 +8,10 @@ public class DinerMenu implements Menu {
     static final int MAX_ITENS = 6;
     int numberOfItems = 0;
     MenuItem[] menuItems;
+    private String name;
 
-    public DinerMenu() {
+    public DinerMenu(String name) {
+        this.name = name;
         menuItems = new MenuItem[MAX_ITENS];
 
         addItem("Vegetarian BLT", "(Fakin') Bacon with lettuce & tomato on whole wheat", true, 2.99);
@@ -46,6 +48,9 @@ public class DinerMenu implements Menu {
         return new DinerMenuIterator(menuItems);
     }
 
+    public String getName() {
+      return name;
+    }
 
     // outros métodos aqui
 }

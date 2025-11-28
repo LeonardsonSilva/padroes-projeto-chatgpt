@@ -1,5 +1,7 @@
 package behavioral.iterator.exemplo03_use_cabeca;
 
+import java.util.ArrayList;
+
 import behavioral.iterator.exemplo03_use_cabeca.classes.CafeMenu;
 import behavioral.iterator.exemplo03_use_cabeca.classes.DinerMenu;
 import behavioral.iterator.exemplo03_use_cabeca.classes.PancakeHouseMenu;
@@ -8,11 +10,16 @@ import behavioral.iterator.exemplo03_use_cabeca.interfaces.Menu;
 
 public class MenuTestDrive {
     public static void main(String[] args) {
-        Menu pancakeHouseMenu = new PancakeHouseMenu();
-        Menu dinerMenu = new DinerMenu();
-        Menu cafeMenu = new CafeMenu();
+        ArrayList<Menu> menus = new ArrayList<>();
+        Menu pancakeHouseMenu = new PancakeHouseMenu("BREAKFAST");
+        Menu dinerMenu = new DinerMenu("LUNCH");
+        Menu cafeMenu = new CafeMenu("DINNER");
 
-        Waitress waitress = new Waitress(pancakeHouseMenu, dinerMenu, cafeMenu);
+        menus.add(pancakeHouseMenu);
+        menus.add(dinerMenu);
+        menus.add(cafeMenu);
+
+        Waitress waitress = new Waitress(menus);
         waitress.printMenu();
     }
 }

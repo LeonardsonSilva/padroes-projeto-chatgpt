@@ -6,9 +6,11 @@ import java.util.Iterator;
 import behavioral.iterator.exemplo03_use_cabeca.interfaces.Menu;
 
 public class PancakeHouseMenu implements Menu {
+    private String name;
     ArrayList<MenuItem> menuItems;
 
-    public PancakeHouseMenu() {
+    public PancakeHouseMenu(String name) {
+        this.name = name;
         menuItems = new ArrayList<>();
         addItem("K&B's Pancake Breakfast", "Pancakes with scrambled eggs and toast", true, 2.99);
         addItem("Regular Pancake Breakfast", "Pancakes with fried eggs, sausage", false, 2.99);
@@ -30,6 +32,10 @@ public class PancakeHouseMenu implements Menu {
 
     public Iterator<MenuItem> createIterator() {
         return menuItems.iterator();
+    }
+
+    public String getName() {
+      return name;
     }
 
     // outros métodos aqui
