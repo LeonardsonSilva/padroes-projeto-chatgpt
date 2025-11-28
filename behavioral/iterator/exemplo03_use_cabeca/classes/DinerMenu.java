@@ -1,9 +1,10 @@
 package behavioral.iterator.exemplo03_use_cabeca.classes;
 
-import behavioral.iterator.exemplo03_use_cabeca.interfaces.Iterator;
+import java.util.Iterator;
+
 import behavioral.iterator.exemplo03_use_cabeca.interfaces.Menu;
 
-public class DinerMenu implements Menu{
+public class DinerMenu implements Menu {
     static final int MAX_ITENS = 6;
     int numberOfItems = 0;
     MenuItem[] menuItems;
@@ -41,7 +42,7 @@ public class DinerMenu implements Menu{
      * restaurante, nem como DinerMenuIterator é implementado. Ele só precisa usar os iteradores para acessar consecutivamente
      * os itens do menu.
     **/
-    public Iterator createIterator() {
+    public Iterator<MenuItem> createIterator() {
         return new DinerMenuIterator(menuItems);
     }
 

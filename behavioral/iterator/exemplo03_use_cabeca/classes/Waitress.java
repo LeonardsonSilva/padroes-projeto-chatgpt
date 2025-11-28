@@ -1,6 +1,6 @@
 package behavioral.iterator.exemplo03_use_cabeca.classes;
 
-import behavioral.iterator.exemplo03_use_cabeca.interfaces.Iterator;
+import java.util.Iterator;
 import behavioral.iterator.exemplo03_use_cabeca.interfaces.Menu;
 
 public class Waitress {
@@ -15,9 +15,9 @@ public class Waitress {
     }
 
     public void printMenu() {
-        Iterator pancakeIterator = pancakeHouseMenu.createIterator();
-        Iterator dinerIterator = dinerMenu.createIterator();
-        Iterator cafeIterator = cafeMenu.createIterator();
+        Iterator<MenuItem> pancakeIterator = pancakeHouseMenu.createIterator();
+        Iterator<MenuItem> dinerIterator = dinerMenu.createIterator();
+        Iterator<MenuItem> cafeIterator = cafeMenu.createIterator();
 
         System.out.println("MENU\n---\nBREAKFAST");
         printMenu(pancakeIterator);
@@ -27,7 +27,7 @@ public class Waitress {
         printMenu(cafeIterator);
     }
 
-    private void printMenu(Iterator iterator) {
+    private void printMenu(Iterator<MenuItem> iterator) {
         while (iterator.hasNext()) {
             MenuItem menuItem = (MenuItem) iterator.next();
             System.out.print(menuItem.getName() + ", ");

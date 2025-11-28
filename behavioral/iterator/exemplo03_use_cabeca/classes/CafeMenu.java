@@ -1,11 +1,11 @@
 package behavioral.iterator.exemplo03_use_cabeca.classes;
 
+import java.util.Iterator;
 import java.util.Hashtable;
 
-import behavioral.iterator.exemplo03_use_cabeca.interfaces.Iterator;
 import behavioral.iterator.exemplo03_use_cabeca.interfaces.Menu;
 
-public class CafeMenu implements Menu{
+public class CafeMenu implements Menu {
     Hashtable<String, MenuItem> menuItems = new Hashtable<String, MenuItem>();
 
     public CafeMenu() {
@@ -25,7 +25,7 @@ public class CafeMenu implements Menu{
     // }
 
     @Override
-    public Iterator createIterator() {
-        return (Iterator) menuItems.values().iterator();
+    public Iterator<MenuItem> createIterator() {
+        return menuItems.values().iterator();
     }
 }
