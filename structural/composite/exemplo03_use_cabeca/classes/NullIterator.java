@@ -1,0 +1,18 @@
+package structural.composite.exemplo03_use_cabeca.classes;
+
+import java.util.Iterator;
+
+
+public class NullIterator implements Iterator<MenuComponent> {
+
+    @Override
+    public boolean hasNext() {
+        return false;
+    }
+
+    @Override
+    public MenuComponent next() {
+        return null;
+    }
+
+}

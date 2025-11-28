@@ -1,5 +1,7 @@
 package structural.composite.exemplo03_use_cabeca.classes;
 
+import java.util.Iterator;
+
 public class MenuItem extends MenuComponent {
     String name;
     String description;
@@ -39,5 +41,8 @@ public class MenuItem extends MenuComponent {
         System.out.print(" -- " + getDescription());
     }
 
+    public Iterator<MenuComponent> createIterator() {
+        return new NullIterator();
+    }
 
 }

@@ -1,5 +1,7 @@
 package structural.composite.exemplo03_use_cabeca.classes;
 
+import java.util.Iterator;
+
 public abstract class MenuComponent {
     public void add(MenuComponent menuComponent) {
         throw new UnsupportedOperationException();
@@ -33,7 +35,7 @@ public abstract class MenuComponent {
         throw new UnsupportedOperationException();
     }
 
-    public void createIterator() {
+    public Iterator<MenuComponent> createIterator() {
         throw new UnsupportedOperationException();
     }
 }
