@@ -22,9 +22,9 @@ bg=blue
 
 bg=blue
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>690</x><y>409</y><w>80</w><h>100</h></coordinates><panel_attributes>lt=..</panel_attributes><additional_attributes>60;10;10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>520</x><y>189</y><w>340</w><h>30</h></coordinates><panel_attributes>lt=&lt;.</panel_attributes><additional_attributes>10;10;320;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>40</x><y>159</y><w>240</w><h>90</h></coordinates><panel_attributes>Essa é a relização. Um triângulo com o
-traço pontilhado  (ou seja, não é sólido).
+traço pontilhado  (não sólido).
 Realização porque as classes concretas
 (Caminhão, Navio) estão implementando
-a interface Transporte.
+(realizando) a interface Transporte.
 bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>209</y><w>150</w><h>90</h></coordinates><panel_attributes>lt=..</panel_attributes><additional_attributes>10;10;130;70</additional_attributes></element><element><id>UMLNote</id><coordinates><x>550</x><y>89</y><w>100</w><h>30</h></coordinates><panel_attributes>Dependência
 bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>109</y><w>70</w><h>110</h></coordinates><panel_attributes>lt=..</panel_attributes><additional_attributes>10;10;50;90</additional_attributes></element></diagram>
